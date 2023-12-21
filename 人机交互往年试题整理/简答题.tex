@@ -5,12 +5,12 @@
 写出下列核心词汇的英文全称：
 \begin{enumerate}[label=(\arabic*)]
     \item 【2015、2021】人机交互：\myunderline{Human Computer Interaction}
-    \item 【2015、2021】以用户为中心的设计：\myunderline{User Centered Desing}
-    \item 【2015】启发式评估：heuristic evaluation
-    \item 【2015】卡片分类方法：Card Sorting
-    \item 【2015】用户角色：User Role
-    \item 【2014、2015】WIMP：Window、Icon、Menu、Pointer
-    \item 【2014】KLM、GOMS \myunderline{Goal + Operator + Method + Selection}、HTA
+    \item 【2015、2021、2023】以用户为中心的设计：\myunderline{User Centered Design}
+    \item 【2015】启发式评估：\myunderline{heuristic evaluation}
+    \item 【2015】卡片分类方法：\myunderline{Card Sorting}
+    \item 【2015】用户角色：\myunderline{User Role}
+    \item 【2014、2015】WIMP：\myunderline{Window、Icon、Menu、Pointer}
+    \item 【2014、2023】KLM、GOMS \myunderline{Goal + Operator + Method + Selection}、HTA
     \item 【2022】WYSIWYG：\myunderline{When you see is when you get}
 \end{enumerate}
 \end{problem}
@@ -18,7 +18,7 @@
 
 
 \begin{problem}[2015]
-评价观点：“人机交互就是人机界面设计”
+评价观点：“人机交互就是人机界面设计”。
 \end{problem}
 
 \begin{solution}
@@ -108,7 +108,7 @@
 
 
 
-\begin{problem}[2015]
+\begin{problem}[2015、2023]
 举出记忆的三种类型，并简述特点。
 \end{problem}
 
@@ -137,7 +137,7 @@
 
 
 
-\begin{problem}[2015、2016、2021]
+\begin{problem}[2015、2016、2021、2023]
 运用学过的知识解释什么是心智模型，并说明这对界面设计有何指导意义。
 \end{problem}
 
@@ -274,14 +274,18 @@ GOMS是关于人类如何执行认知-动作型任务以及如何与系统交互
 
 
 
-\begin{problem}[2013]
+\begin{problem}[2013、2023]
 在开展用户测试时，用户数量的选取通常在什么范围，并简要说明为什么在该范围是比较恰当的。
+
+在开展用户测试时，Jacob Nielsen对于用户数量的选取有何建议？并简要阐述为什么该范围是比较恰当的？以及应用该数量进行实验的时候有何注意事项。
 \end{problem}
 
 \begin{solution}
-5-12人。
+$5 \sim 12$人。
 
-因为根据统计可知，测试用户数量越多，发现的可用性问题及用户体验问题越多。当用户人数达到15人时，基本可以发现98\%的可用性问题。但出于成本和效率的考虑，5-12个用户测试人数是比较合理的。
+因为根据统计可知，测试用户数量越多，发现的可用性问题及用户体验问题越多。当用户人数达到15人时，基本可以发现98\%的可用性问题。但出于成本和效率的考虑，$5 \sim 12$个用户测试人数是比较合理的。
+
+了解用户的特性有助于选择典型用户：要尽可能接近实际用户；通常也需要平衡性别比例。
 \end{solution}
 
 
@@ -425,7 +429,7 @@ $T_{execute} =2\times M+ 2\times H + P +P_1 + 8\times K=7.04 (K=0.28)$
 \begin{figure}[H]
     \vspace{-0.5em}
 	\centering
-	\includegraphics[width=0.63\textwidth]{3.pdf}
+	\includegraphics[width=0.7\textwidth]{3.pdf}
     \vspace{-1em}
 \end{figure}
 \end{solution}
@@ -459,6 +463,7 @@ $T_{execute} =2\times M+ 2\times H + P +P_1 + 8\times K=7.04 (K=0.28)$
 \end{problem}
 
 \begin{solution}
+\vspace{-0.5em}
 \begin{table}[H]
 \centering
 \resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|}
@@ -469,12 +474,15 @@ $T_{execute} =2\times M+ 2\times H + P +P_1 + 8\times K=7.04 (K=0.28)$
 专家用户 & 欣赏更新且强大的功能，不会受复杂度的影响 & 快捷键 \\ \hline
 \end{tabular}}
 \end{table}
+\vspace{-1em}
 \end{solution}
 
 
 
-\begin{problem}[2014、2016]
-面对对话框内容的拥挤，简述三种管理的策略。（简话设计的策略有哪些？分别适用什么场合？）
+\begin{problem}[2014、2016、2023]
+面对对话框内容的拥挤，简述三种管理的策略。（简化设计的策略有哪些？分别适用什么场合？）
+
+对界面上不是很重要的组件和信息，为避免其分散用户的注意力可以采用哪种简化设计策略？（{\kaishu 隐藏}）
 \end{problem}
 
 \begin{solution}
@@ -555,11 +563,13 @@ Mark Weiser 在 ``The computer for the 21st century" 一文中提到要让计算
 
 
 
-\begin{problem}[2021]
+\begin{problem}[2021、2023]
 请简述为什么图形用户界面可以摒弃$7 \pm 2$的设计约束，在界面上放置多个界面组件？
 \end{problem}
 
 \begin{solution}
+因为图形用户界面不是基于记忆的，而是基于认知和识别的。
+
 图形用户界面(GUI)相对于命令行界面(CLI)的一个显著优势是其能够放置和管理大量的界面组件，而不受 $7 \pm 2$ 的设计约束。这个数字 $7 \pm 2$ 是由心理学家乔治·米勒提出的米勒定律，指的是人们在短时记忆中能够有效处理的信息单元数量。然而，在GUI中，我们能够摆脱这个限制的原因有几点：
 
 \begin{enumerate}[label=\arabic*.]
@@ -596,7 +606,7 @@ Mark Weiser 在 ``The computer for the 21st century" 一文中提到要让计算
 
 
 
-\begin{problem}[2021、2022]
+\begin{problem}[2021、2022、2023]
 请说明Fitts' Law对交互设计有什么启发？
 
 请简述Fitts定律，并应用Fitts定律分析比较饼型菜单(Pie Menu)与普通下拉菜单的交互效率。
@@ -620,7 +630,7 @@ Mark Weiser 在 ``The computer for the 21st century" 一文中提到要让计算
 
 
 
-\begin{problem}[2021]
+\begin{problem}[2021、2023]
 在采用观察法进行用户调研时，什么时候可以停止观察？
 \end{problem}
 
@@ -631,7 +641,7 @@ Mark Weiser 在 ``The computer for the 21st century" 一文中提到要让计算
 
 
 
-\begin{problem}[2021]
+\begin{problem}[2021、2023]
 某设计团队对某个设计问题方案争执不休，最终由公司管理层出面确定了最终方案，请分析他们的做法是否正确，如果不正确请给出你的建议。
 \end{problem}
 
@@ -641,7 +651,7 @@ Mark Weiser 在 ``The computer for the 21st century" 一文中提到要让计算
 
 
 
-\begin{problem}[2021]
+\begin{problem}[2021、2023]
 某人计划针对其设计的产品开展评估实验，他根据DECIDE框架设计了实验的各个步骤，然后就开始招募用户进行实验，请简要分析一下他的做法是否正确？
 \end{problem}
 
@@ -717,3 +727,62 @@ GUI 比命令行界面更直观、更具视觉吸引力，并且旨在通过将�
 
 
 
+
+\begin{problem}[2023]
+请简述一条在实践项目中应用课程所学进行交互设计的具体案例，并简要描述所使用的设计方法。
+\end{problem}
+
+
+
+
+\begin{problem}[2023]
+虚拟现实技术被认为是一把双刃剑。虽然有人觉得它在教育等应用中很吸引人、很实用，但也有一部分人认为它的普及会给社会带来一定的风险。请对此问题进行简要讨论。
+\end{problem}
+
+\begin{solution}
+虚拟现实(VR)技术确实是一把双刃剑。在教育领域，它能够提供沉浸式学习体验，使学生能够更直观地理解抽象概念，加强记忆和理解。此外，VR还可用于模拟培训，提高实际操作技能，如医学手术或飞行模拟。
+
+然而，随着VR技术的普及，社会面临一些潜在的风险。首先是沉迷问题，一些人可能过度沉浸于虚拟世界，影响现实生活和社交关系。此外，隐私问题也是一个关切点，特别是在虚拟环境中收集和分享个人数据的情况下。可能会出现滥用个人信息的风险。
+    
+另外，技术的不平等应用也是一个问题。如果虚拟现实教育工具只在一些富裕学校或地区得到推广，而其他地方没有这样的机会，可能会加剧社会中的不平等现象。
+    
+综合来看，虚拟现实技术的发展需要平衡技术应用的创新与对潜在风险的警惕，以确保其在社会中的良好应用。
+\end{solution}
+
+
+
+\begin{problem}[2023]
+对应“系统设计应遵循特定平台的惯例并接受标准”，且是最容易被违反的启发式设计原则是？{\kaishu \myunderline{一致性和标准化}}
+\end{problem}
+
+
+
+\begin{problem}[2023]
+被称为“最有价值的单个可用性工程方法”的是？{\kaishu \myunderline{边做边说法}}
+\end{problem}
+
+
+
+\begin{problem}[2023]
+四种常用的评估类型分别是什么？
+\end{problem}
+
+\begin{solution}
+四种评估范型：快速评估、可用性测试、实地研究、预测性评估。
+\vspace{-0.5em}
+\begin{spacing}{1.2}
+    \centering
+    \begin{longtable}{|m{2cm}<{\centering}|m{2.9cm}|m{2.9cm}|m{2.9cm}|m{3cm}|}
+        \hline
+        \textbf{评估范型} & \multicolumn{1}{c|}{\textbf{快速评估}} & \multicolumn{1}{c|}{\textbf{可用性测试}} & \multicolumn{1}{c|}{\textbf{实地研究}} & \multicolumn{1}{c|}{\textbf{预测性研究}} \\ \hline
+        用户角色 & 自然行为 & 执行测试任务集 & 自然行为 & 用户通常不参与 \\ \hline
+        控制权 & 评估人员实施最低限度控制 & 评估人员密切控制 & 评估人员与用户合作 & 评估人员为专家 \\ \hline
+        评估地点 & 自然工作环境或实验室 & 实验室 & 自然工作环境 & 类似实验室的环境，通常在客户处进行 \\ \hline
+        适用情形 & 快速了解设计反馈。可使用其他交互范型的技术，如专家评测 & 测试原型或产品 & 常用于设计初期，以检查设计是否满足用户需要，发现问题，发掘应用契机 & 专家（通常是开发顾问）检查原型，可在任何阶段进行。使用模型评测潜在设计的特定方面 \\ \hline
+        数据类型 & 通常是定性的非正式描述 & 量化数据，有时是统计数据。可采用问卷调查或访谈搜集用户意见 & 应用草图、场景、例证等的定性描述 & 专家们列出问题清单，由模型导出量化数据，如两种设计的任务执行时间 \\ \hline
+        反馈到设计 & 通过草图、例证、报告 & 通过性能评测、错误统计报告等为未来版本提供设计标准 & 通过描述性的例证、草图、场景和工作日志 & 专家列出一组问题，通常附带解决方案建议。为设计人员提供根据模型计算出的时间值 \\ \hline
+        基本思想 & 以用户为中心，非常实用 & 基于试验的实用方法，即可用性工程 & 可以是客观观察或现场研究 & 专家检查以实用的启发式原则和实践经验为基础，采用基于理论的分析模型\\ \hline
+    \end{longtable}
+	\end{spacing}
+\vspace{-1em}
+\end{solution}

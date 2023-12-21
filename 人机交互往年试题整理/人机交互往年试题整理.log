@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.11)  17 DEC 2023 11:51
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.11)  21 DEC 2023 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1515,39 +1515,96 @@ Package microtype Info: Character `textquotedblleft ' is missing
 Package microtype Info: Character `textquotedblright ' is missing
 (microtype)             in font `TU/TimesNewRoman(0)/m/it/10'.
 (microtype)             Ignoring protrusion settings for this character.
- [6] [7]) [8] (./设计题.tex
+ [6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 781--781
+[]|\TU/FZKai-Z03(0)/m/n/10 快 速 了 解 设 计 反
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 781--781
+[]|\TU/FZKai-Z03(0)/m/n/10 常 用 于 设 计 初 期，|
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 781--781
+[]|\TU/FZKai-Z03(0)/m/n/10 专 家  |（通 常 是 开 发
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 781--781
+\TU/FZKai-Z03(0)/m/n/10 用 模 型 评 测 潜 在 设
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 782--782
+[]|\TU/FZKai-Z03(0)/m/n/10 专 家 们 列 出 问 题 清
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 783--783
+[]|\TU/FZKai-Z03(0)/m/n/10 通 过 描 述 性 的 例
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 783--783
+\TU/FZKai-Z03(0)/m/n/10 通 常 附 带 解 决 方 案
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 783--783
+\TU/FZKai-Z03(0)/m/n/10 供 根 据 模 型 计 算 出
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 784--784
+[]|\TU/FZKai-Z03(0)/m/n/10 专 家 检 查 以 实 用 的
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 784--784
+\TU/FZKai-Z03(0)/m/n/10 启 发 式 原 则 和 实 践
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 785
+ []
+
+[9]) [10] (./设计题.tex
 File: 1.png Graphic file (type bmp)
 <1.png>
 File: 20221.png Graphic file (type bmp)
 <20221.png>
- [9
+ [11
 
 ]
 File: 20222.png Graphic file (type bmp)
 <20222.png>
- [10] [11]
+ [12] [13]
 File: 2015JavaSwing.png Graphic file (type bmp)
 <2015JavaSwing.png>
- [12]
+ [14]
 File: 2012word.png Graphic file (type bmp)
 <2012word.png>
 File: 2012问卷.png Graphic file (type bmp)
 <2012问卷.png>
 File: 2015KLM.png Graphic file (type bmp)
 <2015KLM.png>
- [13]) 
+ [15]
+File: 2023格式塔心理学.jpg Graphic file (type bmp)
+<2023格式塔心理学.jpg>
+) 
 AED: lastpage setting LastPage
-[14] (./人机交互往年试题整理.aux)
+[16] (./人机交互往年试题整理.aux)
 Package rerunfilecheck Info: File `人机交互往年试题整理.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32363 strings out of 476919
- 681086 string characters out of 5821839
- 1141674 words of memory out of 5000000
- 51676 multiletter control sequences out of 15000+600000
+ 32389 strings out of 476919
+ 682442 string characters out of 5821839
+ 1148674 words of memory out of 5000000
+ 51700 multiletter control sequences out of 15000+600000
  415555 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,12n,104p,1243b,590s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,12n,104p,1243b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 人机交互往年试题整理.pdf (14 pages).
+Output written on 人机交互往年试题整理.pdf (16 pages).
